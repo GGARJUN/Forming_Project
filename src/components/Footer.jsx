@@ -3,40 +3,40 @@
 export const Footer = () => {
   return (
     <>
-        <footer class="text-white mt-10 rounded-2xl p-5 bg-gray-800">
-        <div class="flex flex-wrap py-1">
-          <div class="p-5 lg:p-10 w-full md:w-1/3">
-            <h2 class="font-extrabold text-2xl">Agency</h2>
-            <p class="text-gray-400 mt-3">
+        <footer className="text-white my-10 rounded-2xl p-5 bg-gray-800">
+        <div className="flex flex-wrap py-1">
+          <div className="p-5 lg:p-10 w-full md:w-1/3">
+            <h2 className="font-extrabold text-2xl">Agency</h2>
+            <p className="text-gray-400 mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
               officia ipsa nobis ut, reprehenderit praesentium nisi deleniti
               nemo laboriosam est expedita! Consequuntur aperiam deleniti vel
               consequatur ea itaque ratione explicabo.
             </p>
           </div>
-          <div class="p-5 lg:p-10 w-full md:w-1/3">
-            <h2 class="font-extrabold text-xl">Address</h2>
-            <p class="text-gray-400 mt-3">
+          <div className="p-5 lg:p-10 w-full md:w-1/3">
+            <h2 className="font-extrabold text-xl">Address</h2>
+            <p className="text-gray-400 mt-3">
               Address Line 1<br />
               Address Line 2<br />
               Address Line 3<br />
               Pin-000000
             </p>
           </div>
-          <div class="p-5 lg:p-10 w-full md:w-1/3">
-            <h2 class="font-extrabold text-xl">Inquiries</h2>
-            <p class="text-gray-400 mt-3">
+          <div className="p-5 lg:p-10 w-full md:w-1/3">
+            <h2 className="font-extrabold text-xl">Inquiries</h2>
+            <p className="text-gray-400 mt-3">
               <a href="tel:+91000000000">000-000-000</a>
               <br />
               <a href="mailto:contact@gmail.com">contact@gmail.com</a>
             </p>
-            <ul class="flex mt-4">
-              <li class="p-2 bg-white shadow rounded-xl mx-1">
-                <a class="text-gray-500" href="">
+            <ul className="flex mt-4">
+              <li className="p-2 bg-white shadow rounded-xl mx-1">
+                <a className="text-gray-500" href="">
                   <svg
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -45,12 +45,12 @@ export const Footer = () => {
                   </svg>
                 </a>
               </li>
-              <li class="p-2 bg-white shadow rounded-xl mx-1">
-                <a class="text-gray-500" href="">
+              <li className="p-2 bg-white shadow rounded-xl mx-1">
+                <a className="text-gray-500" href="">
                   <svg
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -59,12 +59,12 @@ export const Footer = () => {
                   </svg>
                 </a>
               </li>
-              <li class="p-2 bg-white shadow rounded-xl mx-1">
-                <a class="text-gray-500" href="">
+              <li className="p-2 bg-white shadow rounded-xl mx-1">
+                <a className="text-gray-500" href="">
                   <svg
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -73,12 +73,12 @@ export const Footer = () => {
                   </svg>
                 </a>
               </li>
-              <li class="p-2 bg-white shadow rounded-xl mx-1">
-                <a class="text-gray-500" href="">
+              <li className="p-2 bg-white shadow rounded-xl mx-1">
+                <a className="text-gray-500" href="">
                   <svg
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -87,12 +87,12 @@ export const Footer = () => {
                   </svg>
                 </a>
               </li>
-              <li class="p-2 bg-white shadow rounded-xl mx-1">
-                <a class="text-gray-500" href="">
+              <li className="p-2 bg-white shadow rounded-xl mx-1">
+                <a className="text-gray-500" href="">
                   <svg
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -104,7 +104,7 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-        <div class="text-center text-gray-500 border-t border-gray-500 pt-3">
+        <div className="text-center text-gray-500 border-t border-gray-500 pt-3">
           © Your Site Name. All Rights Reserved. Designed by HTML Codex
         </div>
         </footer>

@@ -15,9 +15,9 @@ export const Product = () => {
 
   return (
     <>
-      <div class="text-center">
-        <h2 class="text-center text-2xl font-bold  py-3">PRODUCTS</h2>
-        <h1 class="text-center text-3xl md:text-6xl font-bold  pb-7 ">
+      <div className="text-center">
+        <h2 className="text-center text-2xl font-bold  py-3">PRODUCTS</h2>
+        <h1 className="text-center text-3xl md:text-6xl font-bold  pb-7 ">
           Our Fresh & Organic Products
         </h1>
       </div>
