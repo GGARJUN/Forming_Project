@@ -131,7 +131,7 @@ export const NavBar = () => {
             </li>
             <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
               <a className=" " href="">
-              <Link to ='/Contect'>Contect</Link>
+              <Link to ='/Contact'>Contect</Link>
               </a>
             </li>
           </ul>

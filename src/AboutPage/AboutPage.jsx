@@ -1,5 +1,7 @@
 import React from 'react'
 import { NavBar } from '../components/NavBar'
+import { About } from '../components/About'
+import { ScrollToTop } from '../components/ScrollToTop'
 
 
 export const AboutPage = () => {
@@ -7,7 +9,9 @@ export const AboutPage = () => {
 
     <div>
         <NavBar/>
-        <h1>About</h1>
+
+        <About/>
+        <ScrollToTop/>
     </div>
   )
 }
