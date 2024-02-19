@@ -90,9 +90,9 @@ export const Banner = () => {
               src="images/carousel-2.jpg"
               alt=""
             />
-            <div class="flex gap-5 absolute mx-5 top-64 lg:top-[80%]">
+            <div class="flex gap-5 absolute mx-5 top-64 ">
               <div class="bg-green-500 flex relative rounded-lg text-white">
-                <div class="lg:my-10 lg:ml-10 hidden lg:block">
+                <div class=" hidden lg:block">
                   <h2 class="text-white font-bold text-2xl">Organic Fruits</h2>
                   <p class="my-3">
                     aperiam laudantium ipsam inventore. Repellat, laboriosam!
@@ -125,7 +125,7 @@ export const Banner = () => {
               </div>
 
               <div class="bg-orange-500 rounded-lg flex text-white">
-                <div class="lg:py-5 lg:pl-5 hidden lg:block">
+                <div class=" hidden lg:block">
                   <h2 class="text-white font-bold text-2xl">
                     Organic Vegetables
                   </h2>
