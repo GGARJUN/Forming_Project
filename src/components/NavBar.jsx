@@ -1,6 +1,7 @@
 // import React from 'react'
 
 import { useState } from "react";
+import{ Link } from 'react-router-dom'
 
 export const NavBar = () => {
   // function change (){
@@ -13,16 +14,16 @@ export const NavBar = () => {
 
   return (
     <>
-      <nav class=" bg-green-300 w-full  px-5 py-2 rounded-lg">
-        <div class="flex  ">
+      <nav className=" bg-green-300 w-full  px-5 py-2 rounded-lg">
+        <div className="flex  ">
           <a href="">
             <img
-              class="h-12 w-16 pr-5 border-r mr-5 border-green-400 p-1"
+              className="h-12 w-16 pr-5 border-r mr-5 border-green-400 p-1"
               src="images/Logo.jpg"
               alt=""
             />
           </a>
-          <div class="my-auto">
+          <div className="my-auto">
             <button
               onClick={change}
               className="hover:bg-green-500 rounded-md lg:hidden p-2 mx-10"
@@ -33,7 +34,7 @@ export const NavBar = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
                   stroke-linecap="round"
@@ -42,29 +43,30 @@ export const NavBar = () => {
                 />
               </svg>
             </button>
-            <ul class="hidden   lg:flex font-bold text-gray-600">
-              <li class="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
-                <a class="py-5 px-5" href="./index.html">
-                  Home
+            <ul className="hidden   lg:flex font-bold text-gray-600">
+
+              <li className="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
+              <a className="py-5 px-5" >
+              <Link to ='/'>Home</Link>
                 </a>
               </li>
-              <li class="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
-                <a class="py-5 px-5" href="./about.html">
-                  About
+              <li className="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
+                <a className="py-5 px-5" >
+                <Link to ='/About'>About</Link>
                 </a>
               </li>
-              <li class="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
-                <a class="py-5 px-5" href="#product">
-                  Service
+              <li className="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
+                <a className="py-5 px-5" >
+                <Link to ='/Service'>Service</Link>
                 </a>
               </li>
-              <li class="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
-                <a class="py-5 px-5" href="">
-                  Product
+              <li className="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
+                <a className="py-5 px-5" >
+                <Link to ='/Product'>Product</Link>
                 </a>
               </li>
 
-              <li class=" flex  hover:shadow-xlm hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
+              <li className=" flex  hover:shadow-xlm hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
                 <button onClick={change} className="flex pl-5 ">
                   Pages
                   <svg
@@ -73,7 +75,7 @@ export const NavBar = () => {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class=" mr-3 w-6 h-6"
+                    className=" mr-3 w-6 h-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -84,51 +86,52 @@ export const NavBar = () => {
                 </button>
               </li>
 
-              <li class="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
-                <a class="py-5 px-5" href="">
-                  Contect
+
+              <li className="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
+                <a className="py-5 px-5" href="">
+                <Link to ='/Contact'>Contect</Link>
                 </a>
               </li>
             </ul>
           </div>
           <a
             href=""
-            class="my-auto text-md px-5 py-2 hover:text-white hover:bg-green-600 bg-green-400 rounded-xl font-bold ml-auto"
+            className="my-auto text-md px-5 py-2 hover:text-white hover:bg-green-600 bg-green-400 rounded-xl font-bold ml-auto"
           >
-            <span class="">Get Start</span>
+            <span className="">Get Start</span>
           </a>
         </div>
 
-        <div id="dropDown" class={`${open ? "block" : "hidden" }`}>
-          <ul class=" lg:hidden font-bold text-gray-600 mt-10 text-center w-auto ml-auto">
-            <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-              <a class=" " href="">
-                Home
+        <div id="dropDown" className={`${open ? "block" : "hidden" }`}>
+          <ul className=" lg:hidden font-bold text-gray-600 mt-10 text-center w-auto ml-auto">
+            <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+              <a className=" " href="">
+              <Link to ='/'>Home</Link>
               </a>
             </li>
-            <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-              <a class=" " href="">
-                About
+            <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+              <a className=" " href="">
+              <Link to ='/About'>About</Link>
               </a>
             </li>
-            <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-              <a class=" " href="">
-                Service
+            <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+              <a className=" " href="">
+              <Link to ='/Service'>Service</Link>
               </a>
             </li>
-            <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-              <a class=" " href="">
-                Product
+            <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+              <a className=" " href="">
+              <Link to ='/Product'>Product</Link>
               </a>
             </li>
-            <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-              <a class=" " href="">
-                Product
+            <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+              <a className=" " href="">
+              <Link to ='/Pages'>Pages</Link>
               </a>
             </li>
-            <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-              <a class=" " href="">
-                Contect
+            <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+              <a className=" " href="">
+              <Link to ='/Contect'>Contect</Link>
               </a>
             </li>
           </ul>
@@ -137,19 +140,19 @@ export const NavBar = () => {
 
       <div className={`${open ? "block" : "hidden"}`}>
         <ul className="absolute hidden font-bold text-gray-600 lg:block bg-green-300 z-10 left-[55%] top-20  text-center rounded-xl w-[15%]">
-          <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-            <a class=" " href="">
-              Blog List
+          <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+            <a className=" " href="">
+            <Link to ='/BlogList'>Blog LIst</Link>
             </a>
           </li>
-          <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-            <a class=" " href="">
-              Blog Details
+          <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+            <a className=" " href="">
+            <Link to ='/BlogDetails'>Blog Details</Link>
             </a>
           </li>
-          <li class="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
-            <a class=" " href="">
-              The Team
+          <li className="hover:shadow-xl hover:text-white hover:bg-green-500 m-3 rounded-xl py-2">
+            <a className=" " href="">
+            <Link to ='/TheTeam'>The Team</Link>
             </a>
           </li>
         </ul>
