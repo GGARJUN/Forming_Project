@@ -12,8 +12,8 @@ export const AboutPage = () => {
 
       <div className="  my-5 rounded-xl relative   w-full">
         <img
-          src="images/carousel-1.jpg "
-          className=" rounded-lg  h-[450px] w-full"
+          src="images/carousel-1.jpg"
+          className=" rounded-lg  h-[600px] w-full"
         />
 
         <div className="absolute top-32 left-20 bg-slate-400 p-2 ">

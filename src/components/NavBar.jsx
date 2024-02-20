@@ -55,11 +55,11 @@ export const NavBar = () => {
                 <Link to ='/About'>About</Link>
                 </a>
               </li>
-              <li className="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
+              {/* <li className="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
                 <a className="py-5 px-5" >
                 <Link to ='/Service'>Service</Link>
                 </a>
-              </li>
+              </li> */}
               <li className="hover:shadow-xl hover:bg-green-500 rounded-xl py-2 hover:text-white mx-3">
                 <a className="py-5 px-5" >
                 <Link to ='/Product'>Product</Link>
